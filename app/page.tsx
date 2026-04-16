@@ -159,7 +159,7 @@ export default function Inicio() {
                     className="flex items-center gap-2 text-gray-400 hover:text-[#FFD700] transition-colors text-sm sm:text-base font-display tracking-wider"
                   >
                     <Icon size={16} />
-                    <span className="hidden sm:inline">{label}</span>
+                    <span className="sm:text-lg">{label}</span>
                   </Link>
                 ))}
               </div>
@@ -190,7 +190,7 @@ export default function Inicio() {
                 </h2>
               </div>
               <p className="fade-up text-gray-300 leading-relaxed mb-4 sm:text-lg">
-                Somos una asociación civil orientada a lo cultural, social y deportivo. Nuestra misión es fomentar el sentimiento xeneize y realizar actividades en beneficio a la sociedad sin importar los colores.
+                Somos una asociación civil orientada a lo cultural, social y deportivo. Nuestra misión es fomentar el sentimiento xeneize y realizar actividades en beneficio a la sociedad.
               </p>
               <p className="fade-up text-gray-300 leading-relaxed mb-8 sm:text-lg">
                 Nos une el amor por los colores y el orgullo de tener nuestra sede, un espacio donde cada hincha puede sentirse parte, compartiendo partidos, comidas, fiestas y toda la mística de La Bombonera.

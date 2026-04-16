@@ -165,7 +165,7 @@ export default function ProyectoSede() {
                 highlight: false,
               },
               {
-                title: "Gracias Pueblo Xeneize",
+                title: "Gracias Pueblo Bostero",
                 names: ["A cada socio, que con su cuota y su esfuerzo hace posible que este sueño siga creciendo, le debemos cada paso que damos. Porque detrás de cada aporte hay compromiso, amor por los colores y ganas de construir algo grande entre todos."],
                 icon: "🏆",
                 highlight: true,

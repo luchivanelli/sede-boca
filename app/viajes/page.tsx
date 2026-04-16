@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Link from "next/link";
-import { Bus, MessageCircle, Shield, Users, ChevronLeft, ChevronRight, MapPin, CircleDollarSign } from "lucide-react";
+import { Bus, MessageCircle, Shield, Users, ArrowRight, ChevronRight, MapPin, CircleDollarSign } from "lucide-react";
 import viajes1 from "../../public/viajes.jpg";
 import viajes2 from "../../public/viajes2.jpg";
 import viajes3 from "../../public/viajes3.jpg";
@@ -166,6 +166,17 @@ export default function Viajes() {
           <h2 className="fade-up font-display font-800 text-3xl sm:text-4xl uppercase mb-10">
             Nuestra Banda en la Ruta
           </h2>
+          <div className="flex items-center justify-start sm:justify-end shrink-0 mb-6">
+            <a
+              href="https://www.instagram.com/stories/highlights/18031141157199450/"
+              target="_blank"
+              rel="noreferrer"
+              className="group inline-flex items-center justify-center text-xs sm:text-sm uppercase tracking-[0.22em] text-white transition hover:border-[#FFD700] hover:text-[#FFD700] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FFD700] sm:px-5"
+            >
+              Ver más
+              <span className="ml-2 text-base transition-transform group-hover:translate-x-1"><ArrowRight size={15}/></span>
+            </a>
+          </div>
           {/* Gallery grid */}
           <div className="grid grid-cols-2 sm:grid-rows-4 sm:h-[780px] gap-3 sm:gap-4 mb-10">
             <div className="fade-up col-span-2 sm:col-span-1 sm:row-span-2 overflow-hidden rounded-xl">

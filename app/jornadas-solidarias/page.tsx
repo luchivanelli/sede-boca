@@ -141,23 +141,23 @@ export default function JornadasSolidarias() {
                 <img src={solidaria1.src} alt="Solidaria 1" className="object-cover w-full h-48 sm:h-96 rounded-xl"/>
               </div>
             </div>
-            <div className="fade-up col-span-1 sm:row-span-1 flex flex-col gap-3 sm:gap-4">
+            <div className="fade-up col-span-2 sm:col-span-1 sm:row-span-1 flex flex-col gap-3 sm:gap-4">
               <div className="h-48 sm:h-96 rounded-xl overflow-hidden flex-1">
-                <img src={solidaria11.src} alt="Solidaria 11" className="object-cover object-center w-full h-48 sm:h-80 rounded-xl"/>
+                <img src={solidaria11.src} alt="Solidaria 11" className="object-cover object-[50%,20%] sm:object-center w-full h-48 sm:h-80 rounded-xl"/>
               </div>
             </div>
-            <div className="fade-up col-span-1 sm:row-span-1 flex flex-col gap-3 sm:gap-4">
+            <div className="fade-up col-span-2 sm:col-span-1 sm:row-span-1 flex flex-col gap-3 sm:gap-4">
               <div className="h-48 sm:h-96 rounded-xl overflow-hidden flex-1">
-                <img src={solidaria7.src} alt="Solidaria 7" className="object-cover object-bottom w-full h-48 sm:h-80 rounded-xl"/>
+                <img src={solidaria7.src} alt="Solidaria 7" className="object-cover sm:object-bottom w-full h-48 sm:h-80 rounded-xl"/>
               </div>
             </div>
             
-            <div className="fade-up col-span-1 sm:row-span-1 flex flex-col gap-3 sm:gap-4">
+            <div className="fade-up col-span-2 sm:col-span-1 sm:row-span-1 flex flex-col gap-3 sm:gap-4">
               <div className="h-48 sm:h-96 rounded-xl overflow-hidden flex-1">
                 <img src={solidaria4.src} alt="Solidaria 4" className="object-cover object-[50%,70%] w-full h-48 sm:h-72 rounded-xl"/>
               </div>
             </div>
-            <div className="sm:hidden fade-up col-span-1 sm:row-span-1 flex flex-col gap-3 sm:gap-4">
+            <div className="sm:hidden fade-up col-span-2 sm:col-span-1 sm:row-span-1 flex flex-col gap-3 sm:gap-4">
               <div className="h-48 sm:h-96 rounded-xl overflow-hidden flex-1">
                 <img src={solidaria6.src} alt="Solidaria 6" className="object-cover object-bottom w-full h-48 sm:h-96 rounded-xl"/>
               </div>

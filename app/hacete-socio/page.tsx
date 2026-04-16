@@ -98,7 +98,7 @@ export default function HaceteSocio() {
                 <span className="text-[#FFD700]">otro nivel.</span>
               </h1>
               <p className="hero-el opacity-0 text-gray-300 text-base sm:text-lg leading-relaxed max-w-md">
-                Ser parte de la Peña Arroyo Seco no es solo tener un carnet, es ser protagonista del crecimiento de Boca en nuestra ciudad.
+                Ser parte de la peña “Arroyo Seco es de Boca” es ser protagonista del crecimiento de Boca en nuestra ciudad, compartiendo la pasión, el compromiso y el sentido de pertenencia.
               </p>
             </div>
           </div>
