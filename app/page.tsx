@@ -131,7 +131,7 @@ export default function Inicio() {
                   ★ Arroyo Seco, Santa Fe
                 </span>
               </div>
-              <h1 className="hero-el opacity-0 font-display font-900 text-5xl sm:text-6xl lg:text-8xl uppercase leading-none mb-6">
+              <h1 className="hero-el opacity-0 font-display font-900 text-6xl lg:text-8xl uppercase leading-none mb-6">
                 Arroyo Seco<br />
                 <span className="text-[#FFD700]">es de Boca</span>
               </h1>
@@ -200,68 +200,10 @@ export default function Inicio() {
         </div>
       </section>
 
-      {/* PROYECTO SEDE */}
-      {/* <section id="sede" className="py-20 sm:py-28 bg-[#0d0d16]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="fade-up mb-3">
-            <span className="section-label">En Construcción</span>
-          </div>
-          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-10 gap-4">
-            <h2 className="fade-up font-display font-800 text-3xl sm:text-4xl lg:text-5xl uppercase leading-tight">
-              Proyecto Sede
-            </h2>
-            <div className="fade-up flex items-center gap-3">
-              <span className="text-gray-400 text-sm">Progreso general</span>
-              <div className="w-32 h-1.5 bg-[#1e1e2a] rounded-full overflow-hidden">
-                <div className="h-full bg-[#FFD700] rounded-full" style={{ width: "80%" }} />
-              </div>
-              <span className="text-[#FFD700] font-display font-700 text-sm">80%</span>
-            </div>
-          </div>
-
-          <p className="fade-up text-gray-300 max-w-xl mb-12">
-            Estamos construyendo el futuro. Un espacio pensado por y para los socios de Arroyo Seco. Conocé los avances de nuestra nueva casa ubicada en Gaboto 841.
-          </p> */}
-
-          {/* Image grid */}
-          {/* <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 mb-12">
-            {[
-              { label: "Estructura y Paredes", status: "AVANZADO · 90%", col: "col-span-1 row-span-2" },
-              { label: "Fase de Terminaciones", status: "EN PROGRESO" },
-              { label: "Cimientos", status: "COMPLETO" },
-              { label: "Diseño Final", status: "PROYECTO" },
-            ].map((item, i) => (
-              <div
-                key={i}
-                className={`sede-img opacity-0 boca-card overflow-hidden ${i === 0 ? "row-span-2" : ""}`}
-              >
-                <div
-                  className="h-36 sm:h-44"
-                  style={{
-                    background: i === 0
-                      ? "linear-gradient(135deg, #003087 0%, #001a5e 100%)"
-                      : i === 1
-                      ? "linear-gradient(135deg, #1a1a2e 0%, #0d0d1a 100%)"
-                      : i === 2
-                      ? "linear-gradient(135deg, #0d1a0d 0%, #0a120a 100%)"
-                      : "linear-gradient(135deg, #1a0d1a 0%, #120a12 100%)",
-                  }}
-                />
-                <div className="p-3 sm:p-4">
-                  <p className="font-display font-700 text-white text-sm uppercase">{item.label}</p>
-                  <p className="text-[#FFD700] text-xs mt-0.5">{item.status}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
-
       {/* CTA SOCIOS */}
       <section id="cta" className="py-20 sm:py-28 bg-[#0d0d16]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="boca-card p-8 sm:p-12 lg:p-16 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-[#FFD700]/5 rounded-full translate-x-1/2 -translate-y-1/2" />
             <div className="relative z-10 grid lg:grid-cols-2 gap-10 items-center">
               <div>
                 <h2 className="fade-up font-display font-800 text-3xl sm:text-4xl lg:text-5xl uppercase leading-tight mb-6">
@@ -309,7 +251,7 @@ export default function Inicio() {
                 </div>
                 <div>
                   <p className="font-display font-700 text-white text-sm uppercase tracking-wide mb-1 sm:text-2xl">Dirección</p>
-                  <p className="text-gray-300 text-sm sm:text-lg">Gaboto 641</p>
+                  <a href="https://maps.app.goo.gl/6jZD2Shef9f4MsZEA" target="_blank" className="text-[#FFD700] text-sm sm:text-lg hover:underline">Gaboto 641</a>
                   <p className="text-gray-400 text-sm sm:text-lg">Arroyo Seco, Provincia de Santa Fe, Argentina</p>
                 </div>
               </div>             
