@@ -102,7 +102,7 @@ export default function Historia() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 w-full pt-32">
           <div className="grid lg:grid-cols-2 gap-10 items-end">
             <div>
-              <span className="hero-el opacity-0 section-label block mb-4">Legado Xeneize</span>
+              <span className="hero-el opacity-0 section-label block mb-4 sm:text-sm">Legado Xeneize</span>
               <h1 className="hero-el opacity-0 font-display font-900 text-5xl sm:text-6xl lg:text-7xl uppercase leading-none">
                 La historia<br />de una{" "}
                 <span className="text-[#FFD700]">pasión</span><br />sin fronteras.
