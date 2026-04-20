@@ -10,6 +10,7 @@ import bandera from "../../public/bandera.jpg"
 import peñaActual from "../../public/peña-actual.jpg"
 import inauguracion from "../../public/inauguracion.jpg"
 import colectivo from "../../public/colectivo.jpg"
+import battaglia from "../../public/battaglia.jpg"
 
 const milestones = [
   {
@@ -210,7 +211,7 @@ export default function Historia() {
                 </p>
               </div>
               <div className="order-1 lg:order-2 fade-up h-64 sm:h-80 rounded-xl bg-gradient-to-br from-[#0d1a0d] to-[#050d05] flex items-center justify-center">
-                
+                <img src={battaglia.src} alt="Sebastián Battaglia" className="rounded-xl h-64 sm:h-80 w-full object-cover"/>
               </div>
             </div>
 
